@@ -1,0 +1,210 @@
+body {
+  direction: rtl; }
+
+.featuredBlog--desc,
+.blogBig__info p,
+.authorInfo p,
+.gridBlog p,
+.article__content p,
+.article__comments--comment p,
+.category__article__info p,
+.about__content p {
+  font-size: 0.875rem; }
+
+.article__content p {
+  line-height: 2; }
+
+.fl {
+  float: right; }
+
+.fr {
+  float: left; }
+
+@media only screen and (min-width: 992px) {
+  .col-md-push-4 {
+    left: initial;
+    right: 33.33333333%; }
+
+  .col-md-pull-8 {
+    right: initial;
+    left: 66.66666667%; } }
+@media only screen and (min-width: 990px) {
+  .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right; } }
+@media only screen and (min-width: 768px) {
+  .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: right; } }
+.breadcrumbs h2 {
+  margin-left: auto;
+  margin-right: 0; }
+
+.breadcrumbs .breadcrumb {
+  margin-left: 0;
+  margin-right: auto; }
+/* HEADER RTL */
+
+
+.logo {
+  float: right; }
+
+.navigation {
+  float: left; }
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    margin-right: 0;
+    margin-left: 36px; }
+
+  .navbar-nav > li {
+    float: right;
+    margin-right: 0;
+    margin-left: 14px; } }
+.dropdown-menu > li > a {
+  text-align: right; }
+
+.searchbox {
+  right: initial;
+  left: 5%; }
+
+/* FEATURED BLOG RTL */
+.featuredBlog--link {
+  right: initial;
+  left: 18px; }
+
+.featuredBlog--link:hover {
+  transform: translateX(15px); }
+
+.featuredBlog--link i {
+  right: initial;
+  left: -22px;
+  transform: scaleX(-1); }
+
+/* LIST BLOGS RTL */
+.blogBig__info,
+.gridBlog,
+.conact__form {
+  overflow: hidden; }
+
+.blogBig__info .button,
+.gridBlog .button,
+.article__form .button,
+.conact__form .button {
+  float: left; }
+
+.blogBig__meta {
+  margin-bottom: 10px; }
+
+.category__article__meta--statics {
+  padding-left: 12px; }
+
+.blogBig__meta--statics li,
+.category__article__meta--statics li {
+  margin-left: 0;
+  margin-right: 12px; }
+
+.blogBig__meta--statics li:first-child {
+  margin-right: 0; }
+
+/* WIDGETS */
+.widgets__widget--head i {
+  left: initial;
+  right: -15px;
+  transform: scaleX(-1); }
+
+.popularItem__img {
+  float: right;
+  margin-left: 16px;
+  margin-right: 0; }
+
+.categoriesList li span {
+  float: left;
+  margin-left: 14px;
+  margin-right: 0; }
+
+/* GRID */
+.gridBlog--statics i {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0; }
+
+/* CATEGORIES RTL */
+.category__article__meta {
+  padding: 10px 15px 10px 0; }
+
+/* INSIDE BLOG RTL */
+.article__info ul li {
+  margin-right: 0;
+  margin-left: 25px; }
+
+.article__info ul li:last-child {
+  margin-left: 0; }
+
+.article__info ul li::after {
+  right: initial;
+  left: -17px; }
+
+.article__info ul li i {
+  float: right;
+  margin-right: 0;
+  margin-left: 8px; }
+
+.article__content blockquote {
+  padding-right: 15px;
+  padding-left: 60px; }
+
+.article__content blockquote::after {
+  right: initial;
+  left: 9px; }
+
+.article__content ul li::before {
+  float: right;
+  margin-right: 0;
+  margin-left: 14px; }
+
+.article__meta--like,
+.article__meta--tags {
+  float: right; }
+
+.article__meta--like {
+  line-height: 20px;
+  margin-top: 15px;
+  margin-right: 0;
+  margin-left: 8px; }
+
+.article__meta--like i {
+  margin-right: 0;
+  margin-left: 6px; }
+
+.article__meta--tags a {
+  line-height: 20px; }
+
+.article__meta--share {
+  float: left; }
+
+.article__author--img {
+  float: right; }
+
+.article__author--info {
+  margin-left: 0;
+  margin-right: 145px; }
+
+.article__addComment h4 i {
+  float: right;
+  margin-right: 0;
+  margin-left: 6px; }
+
+.article__comments--info img {
+  float: right;
+  margin-right: 0;
+  margin-left: 20px; }
+
+.article__comments--comment p {
+  padding-left: 0;
+  padding-right: 100px; }
+
+/* FOOTER RTL */
+.footer__links li:first-child::after {
+  display: none; }
+
+.footer__links li:last-child::after {
+  display: block; }
